@@ -11,7 +11,7 @@ import { JournalScreen } from '../components/journal/JournalScreen';
 export const AppRouter = () => {
    return (
       <Router>
-         <div>
+         <div >
             <Switch>
                <Route path="/auth" component={AuthRouter}/>
                <Route exact path="/" component={JournalScreen}/>
