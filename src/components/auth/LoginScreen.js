@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const LoginScreen = () => {
-  return <div>
+  return (<div>
      <h1>LoginScreen</h1>
-  </div>;
+  </div>);
 };
